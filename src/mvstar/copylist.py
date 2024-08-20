@@ -29,7 +29,7 @@ def save_movies(data, file_path):
 
 # MAKE JSON
 def cpjson(pg = 1, sleep_time = 1):
-    file_path = '/home/kimpass189/data/movies/movie_company/data.json'
+    file_path = '/home/whitecapella/data/movies/movie_company/data.json'
     if os.path.isfile(file_path):
         print(f"!!!데이터가 이미 존재합니다!!!: {file_path}")
         return True

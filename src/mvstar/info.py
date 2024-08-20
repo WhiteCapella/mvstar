@@ -28,8 +28,8 @@ def save_movies(data, file_path):
         json.dump(data, f, indent = 4, ensure_ascii=False)
 
 def read_data(dt = 2015, sleep_time = 1):
-    file_path = f'/home/kimpass189/data/movies/movieinfo/year={dt}/data.json'
-    read_path = f'/home/kimpass189/data/movies/year={dt}/data.json'
+    file_path = f'/home/whitecapella/data/movies/movieinfo/year={dt}/data.json'
+    read_path = f'/home/whitecapella/data/movies/year={dt}/data.json'
     # 파일이 있다면?
     if os.path.isfile(file_path):
         print(f"!!!데이터가 이미 존재합니다!!! : {file_path}")
